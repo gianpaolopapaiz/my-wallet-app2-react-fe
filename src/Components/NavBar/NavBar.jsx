@@ -1,18 +1,17 @@
 import './NavBar.css';
-import {WalletIcon} from "../../Icons/WalletIcon";
+import { UserIcon, WalletIcon } from "../Icons/Icons";
 
-
-export const NavBar = () => {
+const NavBar = () => {
   return (
     <header id='NavBar'>
       <div className='navBarLogo'>
         <WalletIcon/>
       </div>
       <div className='navBarOptions'>
-        <li>
-          <a href="/users/sign_in">Login</a>
-        </li>
+        <UserIcon />
       </div>
     </header>
   )
 }
+
+export default NavBar;

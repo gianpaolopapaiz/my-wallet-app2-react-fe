@@ -1,0 +1,8 @@
+.wallet-table {
+  width: 100%;
+}
+
+.wallet-table th,
+.wallet-table td {
+  border: 1px solid black;
+}
