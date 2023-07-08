@@ -1,10 +1,11 @@
+import Container from "@mui/material/Container";
 
 
 const CategoriesPage = () => {
   return (
-    <div id="categories-page">
+    <Container id="categories-page">
       <h1>Categories Page</h1>
-    </div>
+    </Container>
   )
 }
 
